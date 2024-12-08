@@ -9,3 +9,18 @@
 | ------ | ------ | ---------- |
 | Series | 1D Array (can store any 1 data type) | `s = pand.Series([0, 1, 2, 3])` |
 | Data Frame | 2D Array (can use different data types) | `dframe = pand.DataFrame({'a': [0, 1], 'b': [2, 3]})` |
+
+**Data Processing (4 Formats, with examples):**  
+
+* JSON
+  + Read Operation: `dframe = pand.read_json('example.json')`
+  + Write Operation: `dframe.to_json('new_write.json')`
+* CSV
+  + Read Operation: `dframe = pand.read_csv('example.csv')`
+  + Write Operation (with row labels unadded to output file): `dframe.to_csv('new_write.csv', index=False)`
+* Excel
+  + Read Operation: `dframe = pand.read_excel('example.xlsx')`
+  + Write Operation (with row labels unadded to output file): `dframe.to_excel('new_write.xlsx', index=False)`
+* Parquet (Apache open source solution)
+  + Read Operation: `dframe = pand.read_parquet('example.parquet')`
+  + Write Operation: `dframe.to_parquet('new_write.parquet')`
