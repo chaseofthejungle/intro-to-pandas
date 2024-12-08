@@ -1,7 +1,7 @@
-# intro-to-pandas
-**Definition/Overview:** Pandas as an open source coding library for Python, providing tools for data manipulation and analysis.
+# Intro to Pandas (Python Data Handling Library)
+**Definition/Overview:** Pandas is an open source coding library for Python, providing tools for data manipulation and analysis.
 
-**Installation:** The easiest way to install Python is through the pip tool: simply use the `pip install pandas` or `pip3 install pandas` command, in terminal.
+**Installation:** The easiest way to install Python is through the [pip](https://pypi.org/project/pip/) tool: simply use the `pip install pandas` or `pip3 install pandas` command, in terminal.
 
 **Data Structures:** Pandas is dependent on two primary data handling structures: 'Series' and 'Data Frame'.
 
