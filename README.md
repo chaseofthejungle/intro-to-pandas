@@ -7,5 +7,5 @@
 
 | Structure | Definition | Example |
 | ------ | ------ | ---------- |
-| Series | 1D Array (can store any 1 data type) | `s = pand.Series([0, 1, 2, 3)]` |
-| Data Frame | 2D Array (can use different data types) | `dframe = pand.DataFrame({'a': [0,1], 'b': [2,3]})` |
+| Series | 1D Array (can store any 1 data type) | `s = pand.Series([0, 1, 2, 3])` |
+| Data Frame | 2D Array (can use different data types) | `dframe = pand.DataFrame({'a': [0, 1], 'b': [2, 3]})` |
