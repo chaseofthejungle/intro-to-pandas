@@ -26,13 +26,13 @@
   + Write Operation: `dframe.to_parquet('new_write.parquet')`
 <br /><br />
 
-**Initial Data Analysis/Exploration Tools:**
+**Initial Data Analysis/Exploration Tools (for Data Frames):**
 
 | Function or Property | Purpose |
 | ------- | ------- |
 | `dframe.head()` | Returns an amount of rows defined by the user, beginning at the start of the data. |
 | `dframe.tail()` | Returns an amount of rows defined by the user, beginning at the bottom of the data. |
-| `drame.describe()` | Returns descriptive, summary statistics for specified columns. |  
-| `df.columns` | Returns column names/labels. |  
-| `df.dtypes` | Returns column data types. |
-| `df.isnull().sum()` | Returns the number of missing items/values for specified columns. |
+| `dframe.describe()` | Returns descriptive, summary statistics for specified columns. |  
+| `dframe.columns` | Returns column names/labels. |  
+| `dframe.dtypes` | Returns column data types. |
+| `dframe.isnull().sum()` | Returns the number of missing items/values for specified columns. |
