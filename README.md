@@ -1,5 +1,5 @@
 # Intro to Pandas (Python Data Handling Library)
-**Definition/Overview:** Pandas is an open source coding library for Python, providing tools for data manipulation and analysis. The easiest way to install Python is through the [pip](https://pypi.org/project/pip/) tool: simply use the `pip install pandas` or `pip3 install pandas` command, in terminal.
+**Definition/Overview:** [Pandas](https://pandas.pydata.org/) is an open source coding library for Python, providing tools for data manipulation and analysis. The easiest way to install Python is through the [pip](https://pypi.org/project/pip/) tool: simply use the `pip install pandas` or `pip3 install pandas` command, in terminal.
 
 <hr />
 
@@ -25,16 +25,16 @@ Pandas is dependent on *two* primary data handling structures:
 
 ## 2. <a name="data-processing">Data Processing Formats</a>
   
-* **JSON**
+* [**JSON**](https://docs.python.org/3/library/json.html)
   + Read Operation: `dframe = pand.read_json('example.json')`
   + Write Operation: `dframe.to_json('new_write.json')`
-* **CSV**
+* [**CSV**](https://docs.python.org/3/library/csv.html)
   + Read Operation: `dframe = pand.read_csv('example.csv')`
   + Write Operation (with row labels unadded to output file): `dframe.to_csv('new_write.csv', index=False)`
-* **Excel (XLSX)**
+* [**Excel (XLSX)**](https://www.microsoft.com/en-us/microsoft-365/excel)
   + Read Operation: `dframe = pand.read_excel('example.xlsx')`
   + Write Operation (with row labels unadded to output file): `dframe.to_excel('new_write.xlsx', index=False)`
-* **Parquet (Apache open source solution)**
+* [**Parquet (Apache open source solution)**](https://parquet.apache.org/)
   + Read Operation: `dframe = pand.read_parquet('example.parquet')`
   + Write Operation: `dframe.to_parquet('new_write.parquet')`
   
