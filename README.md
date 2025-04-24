@@ -9,6 +9,7 @@
 2. [Data Processing Formats](#data-processing)
 3. [Initial Data Analysis/Exploration (for Data Frames)](#data-analysis)
 4. [Data Reading/Selection (for Data Frames)](#data-reading)
+5. [Supplemental Resource](#supplemental)
   
 <hr />
   
@@ -61,3 +62,9 @@ Pandas is dependent on *two* primary data handling structures:
 | `dframe[['col_name1', 'col_name2']]`| Reads/selects more than one specified column. |
 | `dframe.iloc[0:4]` | Reads/selects rows by provided indices. |
 | `dframe[dframe['col_name'] >= 5]` | Reads/selects rows according in response to provided conditional test. |
+
+<hr />
+  
+## 5. <a name="supplemental">Supplemental Resource</a>
+  
+* *[Python Networking Scripts](https://github.com/chaseofthejungle/python-networking-scripts)*
