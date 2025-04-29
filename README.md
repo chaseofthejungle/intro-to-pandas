@@ -9,7 +9,7 @@
 2. [Data Processing Formats](#data-processing)
 3. [Initial Data Analysis/Exploration (for Data Frames)](#data-analysis)
 4. [Data Reading/Selection (for Data Frames)](#data-reading)
-5. [Supplemental Resource](#supplemental)
+5. [Supplemental Resources](#supplemental)
   
 <hr />
   
@@ -65,6 +65,7 @@ Pandas is dependent on *two* primary data handling structures:
 
 <hr />
   
-## 5. <a name="supplemental">Supplemental Resource</a>
+## 5. <a name="supplemental">Supplemental Resources</a>
   
-* *[Python Networking Scripts](https://github.com/chaseofthejungle/python-networking-scripts)*
+* *[Official pandas Installation Page](https://pandas.pydata.org/docs/getting_started/install.html)*
+* *[Python Networking Scripts Guide](https://github.com/chaseofthejungle/python-networking-scripts)*
