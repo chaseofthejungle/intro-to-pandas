@@ -69,3 +69,4 @@ Pandas is dependent on *two* primary data handling structures:
   
 * *[Official pandas Installation Page](https://pandas.pydata.org/docs/getting_started/install.html)*
 * *[Python Networking Scripts Guide](https://github.com/chaseofthejungle/python-networking-scripts)*
+* *[Python-Based Intrusion Detection System](https://github.com/chaseofthejungle/python-ids)*
